@@ -1,8 +1,10 @@
 {
+  "buildCommand": null,
+  "installCommand": null,
+  "framework": null,
   "outputDirectory": "public",
   "rewrites": [
-    { "source": "/generator", "destination": "/generator.html" },
-    { "source": "/health", "destination": "/index.html" }
+    { "source": "/generator", "destination": "/generator.html" }
   ],
   "headers": [
     {
