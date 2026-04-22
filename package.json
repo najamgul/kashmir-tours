@@ -1,0 +1,20 @@
+{
+  "name": "kashmir-tours",
+  "version": "1.0.0",
+  "description": "Kashmir Tour Package Generator — Create and export professional tour packages to PDF",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["kashmir", "tour", "travel", "pdf"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.8.4",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/static": "^9.1.0",
+    "puppeteer": "^24.8.2"
+  }
+}
